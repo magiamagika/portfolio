@@ -1,0 +1,137 @@
+@media screen and (max-width: 1024px){
+    .paragraph-work button {
+        width: 35vw ;
+        height: 9vw;
+        border-radius: 20vw;
+    }
+    .paragraph-work button p {
+        font-size: 2vw;
+
+    }
+    .paragraph-work button {
+        padding: 0 2vw;
+    }
+    .circle-btn {
+        width: 6vw;
+        height: 6vw;
+    }
+    .circle-btn svg{
+        width: 2vw;
+        
+    }
+}
+@media screen and (max-width: 550px) {
+    nav{
+        background-color: black;
+        height: 20vw;
+        width: 100%;
+    }
+    .links {
+        position: absolute;
+        width: 100%;
+        right: 0;
+        height: 100vh; 
+        top: 8vh;
+        background-color: black;
+        display: flex;
+        padding: 45vw 0;
+        flex-direction: column;
+        gap: 55px;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 0 35px;
+
+    }
+    .links a {
+        font-size: 7vw;
+    }
+    .burger {
+        display: block;
+        z-index: 10;
+    }
+    .logo{
+        z-index: 1;
+
+    }
+    .nav-active {
+        transform: translateX(0%);
+    }
+    .work {
+        padding: 30vw 0;
+    }
+    .work h1 {
+        font-size: 7vw;
+        text-align: center;
+    }
+    .work-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .paragraph-work {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .paragraph-work h1 {
+        font-size: 9vw;
+        padding: 10vw 0;
+    }
+    .paragraph-work h2 {
+        font-size: 5vw;
+        line-height: 7vw;
+        padding: 1vw 0;
+    }
+    .paragraph-work button {
+        width: 50vw ;
+        height: 12vw;
+        border-radius: 20vw;
+    }
+    .paragraph-work button p {
+        font-size: 3vw;
+        padding: 5vw;
+    }
+    .paragraph-work button {
+        padding: 0 4vw;
+    }
+    .circle-btn {
+        width: 9vw;
+        height: 9vw;
+    }
+    .circle-btn svg{
+        width: 3vw;
+        
+    }
+    .box-alert {
+        display: none;
+    }
+    .project {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        width: 90vw;
+        height: 26vh;
+        padding: 0vw 0;
+        
+        position: relative;
+        overflow: auto;
+    }
+    .info-web {
+        padding: 5vw 0;
+    }
+    .info-web h1 {
+        font-size: 7vw;
+        text-align: center;
+    }
+    .my-skills {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

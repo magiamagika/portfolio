@@ -1,0 +1,99 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+    font-family: 'satoshi';
+    color: black;
+    scroll-behavior: smooth;
+}
+.works {
+    padding: 10vw 5vw;
+}
+.work-left img{
+    width: 50vw;
+    height: 31vw;
+}
+
+.works-spec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vw 0;
+}
+.works h3{
+    font-size: 36px;
+    padding: 0 5vw;
+}
+.work-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.work-right h1{
+    font-size: 40px;
+    text-align: right;
+    color: #363636;
+}
+.work-right p {
+    text-align: right;
+    font-size: 20px;
+    line-height: 44px;
+    padding: 2vw 0;
+    color: #828282;
+}
+.work-right button{
+    background: #000000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    width: 17.1vw;
+    height: 4.1vw;
+    border-radius: 2.6vw;
+    font-size: 0.9vw;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1vw 0 2.1vw;
+    margin-top: 2vw;
+    transition: 1s;
+    border: none;
+}
+
+.work-right button:hover{
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.work-right button p {
+    font-size: 1vw;
+    font-weight: 500;
+    color: #fff;
+}
+
+.work-right button span{
+    font-weight: 700;
+    color: #fff;
+}
+
+.circle-btn {
+    background-color: #222222;
+    width: 2.6vw;
+    height: 2.6vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.circle svg:hover{
+    margin-left: 0.5vw;
+}
+ 
+.circle svg {
+    width: 0.8vw;
+    height: auto;
+    transition: 1s;
+}

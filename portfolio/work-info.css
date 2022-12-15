@@ -1,0 +1,268 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'satoshi';
+    color: black;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+   width: 5px;
+ }
+ 
+ ::-webkit-scrollbar-track {
+   background: #e0e0e0; 
+ }
+
+ ::-webkit-scrollbar-thumb {
+   background: rgb(73, 73, 73); 
+   border-radius: 20px;
+   transition: 1s;
+
+ }
+ 
+ ::-webkit-scrollbar-thumb:hover {
+   background: #F45800; 
+ }
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.1vw 7.8vw;
+    height: 16vh;
+    transition: 1s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+ 
+ }
+ul{
+    display: flex;
+    list-style:none;
+}
+
+li a{ 
+    padding: 0 2.6vw;
+    font-size: 1.1vw;
+    font-weight: 700;
+    color: grey;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+li a:hover {
+    cursor: pointer;
+}
+
+.burger {
+    display: none;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity:0;
+        transform: translateX(2.6vw);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0vw);
+    }
+}
+    .toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+    .toggle .line2{
+    opacity: 0;
+}
+    .toggle .line3{
+    transform: rotate(45deg)translate(-5px,-6px);
+}
+    .logo img{
+    width: 4.1vw;
+}
+.sticky {
+
+top: 0;
+width: 100%;
+height: 2.6vw;
+transition: 1s;
+background-color: rgba(1, 1, 7, 0.795);
+}
+
+.active {
+    color: #fff;
+}
+.box-alert{
+    width: 20vw;
+    height: 15.5vw;
+    background-color: #f7f7f7;
+    border: 2px solid #a7a7a7;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0px 20px 20px 0px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 20vw;
+    transform: translateX(0%);
+    transition: 0.5s;
+}
+.box-alert svg {
+    margin-top: 1vw;
+    width: 3vw;
+}
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 40vw;
+    height: 50vh;
+    
+    position: relative;
+    overflow: auto;
+}
+.project:hover {
+    cursor: grab;
+}
+.project img {
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+    top: 0;
+}
+.work {
+    padding: 10vw 5vw;
+}
+.work h1 {
+    font-size: 36px;
+    color: #363636;
+}
+.work-container {
+    padding: 5vw 0vw;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.paragraph-work button{
+    background: #000000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    width: 17.1vw;
+    height: 4.1vw;
+    border-radius: 2.6vw;
+    font-size: 0.9vw;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1vw 0 2.1vw;
+    margin-top: 2vw;
+    transition: 1s;
+    border: none;
+}
+
+.paragraph-work button:hover{
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.paragraph-work button p {
+    font-size: 1vw;
+    font-weight: 500;
+    color: #fff;
+}
+
+.paragraph-work button span{
+    font-weight: 700;
+    color: #fff;
+}
+
+.circle-btn {
+    background-color: #222222;
+    width: 2.6vw;
+    height: 2.6vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.circle svg:hover{
+    margin-left: 0.5vw;
+}
+ 
+.circle-btn svg {
+    width: 0.8vw;
+    height: auto;
+    transition: 1s;
+}
+.paragraph-work {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+
+}
+.paragraph-work h1{
+    font-size: 64px;
+
+}
+.paragraph-work h2{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 3vw;
+    color: #828282;
+    padding: 1vw 0;
+}
+.my-skills {
+    display: flex;
+    justify-content: center;
+    gap: 9vw;
+    padding: 5vw 0;
+}
+.skills-box {
+    text-align: center;
+    padding: 1vw 0;
+}
+.info-web h1 {
+    font-size: 40px;
+    color: #363636;
+
+}
+.skills-box svg {
+    margin: 0.5vw 0;
+}
+.skills-box h2 {
+    margin: 0.5vw 0;
+    font-size: 30px;
+    font-weight: 600;
+    color: #363636;
+}
+.skills-box h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #828282;
+}

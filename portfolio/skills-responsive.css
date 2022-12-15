@@ -1,0 +1,211 @@
+
+@media screen and (max-width: 1366px) {
+    .logo img{
+        width: 60px;
+    }
+    li a{
+        font-size: 1.5vw;
+    }
+    .mac img {
+        width: 30vw;
+    }
+    .iphone img {
+        width: 20vw;
+    }
+    .my-skills {
+        padding: 15vw 7.8vw;
+    }
+    .title-skills h1{
+        line-height: 5vw;
+    }
+    .title-skills h2{
+        line-height: 4vw;
+    }
+    .title-skills button{
+        width: 18vw;
+        height: 4vw;
+        border-radius: 70px;
+        padding: 1vw;
+        
+    }
+    .title-skills button p{
+        font-size: 12px;
+        padding: 2vw 0;
+    }
+    .title-skills button svg{
+        width: 15px;
+    }
+    .title-skills button .circle-btn{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .logo img{
+        width: 60px;
+    }
+    li a{
+        font-size: 2vw;
+    }
+    .mac img {
+        width: 30vw;
+    }
+    .iphone img {
+        width: 20vw;
+    }
+    .title-skills h1 {
+        font-size: 4.5vw;
+        line-height: 6vw;
+    }
+    .title-skills h2 {
+        font-size: 2vw;
+    }
+    .title-skills button{
+        width: 20vw;
+        height: 5vw;
+        border-radius: 70px;
+        padding: 1vw;
+        
+    }
+    .title-skills button p{
+        font-size: 12px;
+        padding: 2vw 0;
+    }
+    .title-skills button svg{
+        width: 15px;
+    }
+    .title-skills button .circle-btn{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+
+@media screen and (max-width: 550px) {
+    nav{
+        background-color: black;
+        height: 20vw;
+        width: 100%;
+    }
+    .links {
+        position: absolute;
+        width: 100%;
+        right: 0;
+        height: 100vh; 
+        top: 8vh;
+        background-color: black;
+        display: flex;
+        padding: 45vw 0;
+        flex-direction: column;
+        gap: 55px;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 0 35px;
+
+    }
+    .links a {
+        font-size: 6vw;
+    }
+    .burger {
+        display: block;
+        z-index: 10;
+    }
+    .logo{
+        z-index: 1;
+    }
+    .nav-active {
+        transform: translateX(0%);
+    }
+    .my-skills {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .title-skills {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column ;
+    }
+    .title-skills  button {
+        width: 50vw ;
+        height: 12vw;
+        border-radius: 20vw;
+    }
+    .title-skills  button p {
+        font-size: 3vw;
+        padding: 5vw;
+    }
+    .title-skills button {
+        padding: 0 2vw;
+    }
+    .circle-btn {
+        width: 9vw;
+        height: 9vw;
+    }
+    .circle-btn svg{
+        width: 3vw;
+
+    }
+    .mac {
+        position: absolute;
+        top:25vw ;
+        left: 35%;
+    }
+    .iphone {
+        position: absolute;
+        top:15vw ;
+        left: 15%;
+    }
+    .mac img {
+        width: 55vw;
+    }
+    .iphone img {
+        width: 40vw;
+    }
+    .title-skills h1 {
+        font-size: 8vw;
+        line-height: 9vw;
+        margin-top: 100vw;
+    }
+    .title-skills h2{
+        font-size: 4vw;
+        line-height: 9vw;
+        margin-top: 6vw;
+    }
+    @keyframes pulse1 {
+        0%{
+           top: 18vw;
+        }
+        40% {
+           top: 22vw;
+        }
+        60% {
+           top: 22vw;
+        }
+        100% {
+           top: 18vw;
+        }
+     }
+     @keyframes pulse2 {
+        0%{
+           transform: translateY(0vw);
+        }
+        40% {
+           transform: translateY(-2vw);
+        }
+        60% {
+           transform: translateY(-2vw);
+        }
+        100% {
+           transform: translateY(0vw);
+        }
+     }
+}   
+

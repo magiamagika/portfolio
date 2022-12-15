@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="skills-responsive.css">
+    
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src="img/logo.png"></div>
+        <ul class ="links">
+            <li data-aos="fade-down" data-aos-duration="2200">
+                <a class="active" href="index.html#home">Home</a>
+            </li>
+            <li data-aos="fade-down" data-aos-duration="1900">
+                <a href="index.html#skills">Skills</a>
+            </li>
+            <li data-aos="fade-down" data-aos-duration="1600">
+                <a class="works-active" href="works.html">Realizacje</a>
+            </li>
+            <li data-aos="fade-down" data-aos-duration="1300">
+                <a href="index.html#portfolio">Portfolio</a>
+            </li>
+            <li data-aos="fade-down" data-aos-duration="1000">
+                <a href="index.html#contact">Contact</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <section class="my-skills">
+        <div class="title-skills">
+            <h1 data-aos="zoom-out-up" data-aos-duration="1600" >Stworzę twoją indywidualną<br>
+            stronę internetową</h1>
+            <h2 data-aos="zoom-in-right" data-aos-duration="1600"  >Jestem Oliwier, i od 2 lat zajmuje się<br> 
+                projektowaniem i pisaniem stron internetowych.<br> 
+                Skończyłem kursy Front-Endu na serwisie Udemy.</h2>
+
+            <button onclick="window.location='work-info.html'">
+                <p>Check <span>portfolio</span></p>
+                <div class="circle-btn">
+                    <svg width="17" height="8" viewBox="0 0 17 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.3269 3.54332C16.3267 3.54313 16.3266 3.5429 16.3263 3.54271L12.9552 0.187869C12.7027 -0.0634537 12.2942 -0.0625185 12.0428 0.190062C11.7915 0.442611 11.7924 0.851095 12.045 1.10245L14.3083 3.35484H0.645162C0.288839 3.35484 0 3.64368 0 4C0 4.35632 0.288839 4.64516 0.645162 4.64516H14.3083L12.045 6.89755C11.7925 7.1489 11.7915 7.55739 12.0428 7.80994C12.2942 8.06255 12.7027 8.06342 12.9553 7.81213L16.3264 4.45729C16.3266 4.4571 16.3267 4.45687 16.3269 4.45668C16.5796 4.20448 16.5788 3.79468 16.3269 3.54332Z" fill="white"/>
+                        </svg>  
+                </div>
+            </button>
+        </div>
+        <div class="mockups">
+            <div  class="mac">
+                <img src ="mac.png">
+            </div>
+            <div class="iphone">
+                <img src="iphone.png">
+            </div>
+        </div>
+    </section>
+    <script src="works.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

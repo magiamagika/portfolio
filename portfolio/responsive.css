@@ -1,0 +1,496 @@
+/* 
+500 1000 1366  */
+
+
+@media screen and (max-width: 1366px) {
+    .logo img{
+        width: 60px;
+    }
+    li a{
+        font-size: 1.5vw;
+    }
+    .home {
+        padding: vw 7.8vw;
+    }
+    .home h3 {
+        font-size: 2vw;
+    }
+    .home h1 {
+        font-size: 5.5vw;
+        padding: 1vw 0;
+    }
+    .home p {
+        font-size: 1.8vw;
+        padding: 2vw 0;
+        width: 40vw;
+    }
+    
+    .contact {
+        display: block;
+    }
+    .circle-btn{
+        width: 10vw;
+    }
+    .circle-words img {
+        width: 14vw;
+        height: 14vw;
+
+    }
+
+    .skills p {
+        font-size: 1.5vw;
+        line-height: 3vw;
+    }
+    .skills h3 {
+        top: 1vw;
+    }
+    .decorations{
+   
+        position: absolute;
+        right: 0;
+        top: 50%;
+        z-index: -1;
+    }
+    .decorations img {
+        width: 8vw;
+    }
+    .box {
+        width: 25vw;
+        height: 35.5vw;
+    }
+    .circle-icon {
+        width: 8vw;
+        height: 8vw;
+        margin: 1vw 0;
+    }
+    .circle-icon svg {
+        width: 4.5vw;
+    }
+    .portfolio h3 {
+        top: 87vw;
+    }
+    .box h2 {
+        text-align: center;
+        width: 22.5vw;
+    }
+     .box h1 {
+        font-size: 1.5vw;
+        color: #3A3A3A;
+        font-weight: 700;
+        transition: 0.5s;
+    }
+    .box button {
+        width: 15.25vw;
+        height: 60px;
+        font-size: 18px;
+        margin: 15px 0;
+    }
+    .contact h2 {
+        font-size: 15px;
+    }
+    .link svg {
+        width: 15px;
+    }
+    .link h4 {
+        font-size: 10px;
+    }
+    .circle-slider svg {
+        width: 10px;
+    }
+    .circle-slider {
+        transform: translate(-50%, -70%);
+        right: 0%;
+        top: 35%;
+    }
+    .contact h3 {
+        top: 157vw;
+        z-index: 2;
+        font-size: 5vw;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .logo img{
+        width: 60px;
+    }
+    li a{
+        font-size: 2vw;
+    }
+    .home {
+        padding: 20vw 7.8vw;
+        
+    }
+    .home h3 {
+        font-size: 2vw;
+    }
+    .pulse {
+        bottom: 1%;
+    }
+    .skills p {
+        font-size: 1.4vw;
+        line-height: 3vw;
+    }
+    .skills h3{
+        top: 2vw;
+        font-size: 100px;
+    }
+    .decorations{
+        position: absolute;
+        right: 0;
+        top: 23%;
+        z-index: -1;
+    }
+    .decorations img {
+        width: 12vw;
+    }
+    .box {
+        width: 25vw;
+        height: 35.5vw;
+    }
+    .circle-icon {
+        width: 8vw;
+        height: 8vw;
+        margin: 1vw 0;
+    }
+    .circle-icon svg {
+        width: 4.5vw;
+    }
+    .box h2 {
+        text-align: center;
+        width: 20.5vw;
+        font-size: 1.2vw;
+        line-height: 2vw;
+    }
+     .box h1 {
+        font-size: 1.5vw;
+        color: #3A3A3A;
+        font-weight: 700;
+        transition: 0.5s;
+    }
+    .box button {
+        width: 12.25vw;
+        height: 4vw;
+        font-size: 1.2vw;
+        margin: 15px 0;
+    }
+    .circle-slider {
+        transform: translate(-50%, -160%);
+        right: 0%;
+        top: 35%;
+    }
+    .portfolio h3{
+        top: 113vw;
+        font-size: 100px;
+    }
+    .contact h3 {
+        top: 204vw;
+    }
+}
+
+
+
+@media screen and (max-width: 550px) {
+    nav{
+        background-color: black;
+        height: 20vw;
+        width: 100%;
+    }
+    .links {
+        position: absolute;
+        width: 100%;
+        right: 0;
+        height: 100vh; 
+        top: 8vh;
+        background-color: black;
+        display: flex;
+        padding: 45vw 0;
+        flex-direction: column;
+        gap: 55px;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 0 35px;
+
+    }
+    .links a {
+        font-size: 6vw;
+    }
+    .burger {
+        display: block;
+        z-index: 10;
+    }
+    .logo{
+        z-index: 1;
+    }
+    .nav-active {
+        transform: translateX(0%);
+    }
+    .home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .home h3 {
+        font-size: 5vw;
+        padding: 1vw 0;
+        
+    }
+    .home h1 {
+        font-size: 8.5vw;
+        padding: 1vw 0;
+        text-align: center;
+    }
+    .home p {
+        text-align: center;
+        font-size: 5vw;
+        width: 90vw;
+        padding: 3vw 0;
+    }
+    .home button {
+        width: 60vw ;
+        height: 14vw;
+        border-radius: 20vw;
+        margin: 7vw 0;
+
+    }
+    .home button p {
+        font-size: 3vw;
+    }
+    .home button p {
+        font-size: 3.5vw;
+    }
+    
+    .circle-words {
+        display: none;
+    }
+    .circle-btn {
+        width: 20.6vw;
+        height: 9.6vw;
+        margin: 2vw;
+    }
+    .circle-btn svg {
+        width: 5vw;
+    }
+    .pulse {
+        width: 12vw;
+        height: 12vw;
+        margin-bottom: 3vw;
+    }
+    .pulse svg {
+        width: 3vw;
+    }
+    .skills {
+        height: auto;
+       
+    }
+    .skills h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 6vw;
+        
+    }
+    .skills h3 {
+        left: 40%;
+        font-size: 60px;
+    }
+    .skills p {
+        font-size: 3.2vw;
+        line-height: 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .decorations{
+        position: absolute;
+        right: 0;
+        top: 15%;
+        z-index: -1;
+
+    }
+    .decorations img {
+        width: 20vw;
+    }
+    .decorations-sec img {
+        width: 35vw;
+    }
+    .box {
+        width: 70vw;
+        height: 80.5vw;
+        
+    }
+    .circle-icon {
+        width: 20vw;
+        height: 20vw;
+        margin: 1vw 0;
+    }
+    .circle-icon svg {
+        width: 12vw;
+    }
+    .box h2 {
+        text-align: center;
+        width: 50vw;
+        font-size: 3vw;
+        line-height: 5vw;
+    }
+     .box h1 {
+        font-size: 3.5vw;
+        transition: 0.5s;
+        margin: 5px 0;
+    }
+    .box button {
+        width: 27.25vw;
+        height: 8vw;
+        font-size: 2.5vw; 
+    }
+    .boxes-container {
+        flex-direction: column;
+        gap:  7vw;
+        
+    }
+    .sticky {
+        height: 8vh;
+        background-color: black;
+    }
+    .portfolio {
+        height: 100vh;
+    }
+    .portfolio h3{
+        top: 307vw;
+        left: 37%;
+        font-size: 17vw;
+    }
+    .portfolio h2 {
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .port-container {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .port-container img {
+        width:300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .port-text h1{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2vw 0;
+    }
+
+    .port-text p{
+        font-size: 13px;
+        line-height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .port-text button {
+        font-size: 15px;
+        transform: translate(160%);
+        padding: 3vw 0;
+    }
+    .circle-slider {
+        transform: translate(-170%, -290%);
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .contact {
+        height: 140vh;
+    }
+    
+    .contact h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+    .sides {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .left-side {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .form-box input {
+        width: 80vw;
+        font-size: 13px;
+        padding: 6vw 0;
+
+    }
+    .error {
+        font-size: 12px;
+
+    }
+    .contact h3 {
+        top: 529vw;
+        left: 40%;
+        font-size: 15vw;
+    }
+    .contact button{
+        width: 200px;
+        height: 50px;
+        border-radius: 70px;
+        padding: 2vw;
+        
+    }
+    .contact button p{
+        font-size: 15px;
+        padding: 4vw 0;
+    }
+    .contact button svg{
+        width: 15px;
+    }
+    .contact button .circle{
+        width: 40px;
+        height: 40px;
+    }
+    .message-info h1{
+        font-size: 32px;
+    }
+    .message-info p{
+        font-size: 18px;
+    }
+    .message-info {
+        padding: 10vw 0;
+    }
+    .contact-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 1vw 0;
+    }
+    .link h4 {
+        font-size: 20px;
+        
+    }
+}
+

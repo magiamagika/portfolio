@@ -1,0 +1,106 @@
+@media screen and (max-width: 1024px){
+    .work-right  p{
+        font-size: 15px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    nav{
+        background-color: black;
+        height: 20vw;
+        width: 100%;
+    }
+    .links {
+        position: absolute;
+        width: 100%;
+        right: 0;
+        height: 100vh; 
+        top: 8vh;
+        background-color: black;
+        display: flex;
+        padding: 45vw 0;
+        flex-direction: column;
+        gap: 55px;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 0 35px;
+
+    }
+    .links a {
+        font-size: 7vw;
+    }
+    .burger {
+        display: block;
+        z-index: 10;
+    }
+    .circle-words img{
+        display: none;
+    }
+    .logo{
+        z-index: 1;
+
+    }
+    .nav-active {
+        transform: translateX(0%);
+    }
+    .works {
+        padding: 25vw 5vw;
+    }
+    .works h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4vw 0;
+    }
+    .works-spec {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .work-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .work-right h1 {
+        text-align: center;
+        font-size: 30px;
+        padding: 4vw 0;
+    }
+    .work-right p {
+        text-align: center;
+        font-size: 3.5vw;
+    }
+    .works-spec img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 250px;
+
+    }
+    .work-right button {
+        width: 60vw ;
+        height: 13vw;
+        border-radius: 20vw;
+    }
+    .work-right button p {
+        font-size: 3vw;
+
+    }
+    .work-right button {
+        padding: 0 5vw;
+    }
+    .circle-btn {
+        width: 8vw;
+        height: 8vw;
+    }
+    .box-alert {
+        display: none;
+        
+    }
+}
